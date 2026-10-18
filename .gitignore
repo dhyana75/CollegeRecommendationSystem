@@ -1,0 +1,19 @@
+# Compiled Java output
+*.class
+/bin/
+/build/
+/target/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Local secrets and database configuration
+.env
+.env.*
+*.properties
+DBConfig.local.java
+
+# Locally downloaded JDBC drivers
+/lib/*.jar
